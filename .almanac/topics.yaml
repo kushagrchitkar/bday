@@ -1,0 +1,44 @@
+navigation:
+  summary: Entry points and reading order for the wiki.
+
+static-artifact:
+  summary: The checked-in deployed artifact, its missing source boundary, and restoration risks.
+
+frontend:
+  summary: Browser UI behavior, React route behavior, CSS, and static assets.
+
+deployment:
+  summary: Hosting, asset path, and static export concerns.
+
+routing:
+  summary: Next.js App Router route and hydration behavior.
+
+game-flow:
+  summary: Connections board play, submissions, results, and sharing.
+
+concepts:
+  summary: Project-specific vocabulary and domain rules.
+
+data-model:
+  summary: Persisted game document shape and invariants.
+
+firestore:
+  summary: Firebase Firestore usage and the connections collection.
+
+external-service:
+  summary: Browser integrations with Firebase, PostHog, Google AdSense, and hosted origins.
+
+analytics:
+  summary: Pageview and measurement behavior.
+
+assets:
+  summary: Fonts, icons, and static visual assets.
+
+local-modification:
+  summary: Post-build local edits outside the compiled Next.js bundle.
+
+risk:
+  summary: Known gaps, fragile assumptions, and development constraints.
+
+operations:
+  summary: Practical maintenance and restoration guidance.
